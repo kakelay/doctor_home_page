@@ -14,8 +14,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   get: ^4.6.5
-  intl: ^0.18.0
-
+  intl: ^0.18.0 
 dev_dependencies:
  
   flutter_test:

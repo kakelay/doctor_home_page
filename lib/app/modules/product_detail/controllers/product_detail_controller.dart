@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 
-class ShareWidgetController extends GetxController {
-  //TODO: Implement ShareWidgetController
+class ProductDetailController extends GetxController {
+  //TODO: Implement ProductDetailController
 
   final count = 0.obs;
   @override

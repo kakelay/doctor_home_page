@@ -45,13 +45,7 @@ class HomePageView extends GetView<HomePageController> {
                           title: const Text('Setting and Privacy'),
                           onTap: () {
                             Navigator.pop(context); // Close the bottom sheet
-                            // Navigator.push(
-                            //   context,
-                            //   MaterialPageRoute(
-                            //     builder: (context) =>
-                            //         const SettingsPrivacyScreen(),
-                            //   ),
-                            // );
+                           
                           },
                         ),
                         const Padding(
@@ -140,7 +134,7 @@ class HomePageView extends GetView<HomePageController> {
       body: const Center(
         child:  Scaffold(
           backgroundColor: Colors.blue,
-        )
+        ),
 
       ),
     );
