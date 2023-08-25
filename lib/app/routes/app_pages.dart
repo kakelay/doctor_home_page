@@ -45,7 +45,7 @@ class AppPages {
     ),
     GetPage(
       name: Routes.PRODUCT_DETAIL,
-      page: () => const ProductDetailView(),
+      page: () =>   ProductDetailView(),
       binding: ProductDetailBinding(),
     ),
     GetPage(
